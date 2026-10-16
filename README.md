@@ -44,9 +44,3 @@ This **Power BI Analytics Dashboard** provides an end-to-end view of banking ope
 2. **Transaction Seasonality:** Transaction amounts experience major spikes in **January (4.0M)** and **July (4.1M)**, followed by mid-year stabilization around **1.9M–2.0M**[cite: 9].
 3. **Inactive Account Tracking:** A steady baseline of **5 inactive accounts** per month requires targeted customer re-engagement strategies[cite: 9].
 
----
-
-## 🚀 How to View
-1. Download the `.pbix` file from this repository.
-2. Open it using **Power BI Desktop**.
-3. Explore the visuals and filter by account types, months, or customer segments.
