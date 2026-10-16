@@ -32,8 +32,7 @@ This **Power BI Analytics Dashboard** provides an end-to-end view of banking ope
 ##  Dashboard Preview
 
 ### Page 1: Customer Demographics & Monthly Balances
-![Customer Overview]
-<a href=""></a>
+<a href="https://github.com/owaiskhan2533/Customer-Banking-Account-Analytics-PowerBI/blob/main/Project3.png">Customer Overview</a>
 
 ### Page 2: Transaction Volumes & Account Health
 ![Transaction Analysis](Project3.png)
