@@ -1,4 +1,4 @@
-# Bank Account & Customer Transaction Performance Analytics Dashboard 🏦📊
+# Bank Account & Customer Transaction Performance Analytics Dashboard 
 
 ##  Executive Summary
 This **Power BI Analytics Dashboard** provides an end-to-end view of banking operations, customer portfolio health, transaction volumes, and balance distributions. It tracks account performance across **Savings vs Current** accounts, identifies inactive account trends, monitors monthly cash flow variations, and breaks down customer demographics across age and gender brackets[cite: 8, 9].
@@ -32,7 +32,8 @@ This **Power BI Analytics Dashboard** provides an end-to-end view of banking ope
 ##  Dashboard Preview
 
 ### Page 1: Customer Demographics & Monthly Balances
-![Customer Overview](project_3_2.png)
+![Customer Overview]
+<a href=""></a>
 
 ### Page 2: Transaction Volumes & Account Health
 ![Transaction Analysis](Project3.png)
