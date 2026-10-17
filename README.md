@@ -1,46 +1,44 @@
-# Bank Account & Customer Transaction Performance Analytics Dashboard 
+# Bank Account & Customer Transaction Performance Analytics Dashboard
 
-##  Executive Summary
-This **Power BI Analytics Dashboard** provides an end-to-end view of banking operations, customer portfolio health, transaction volumes, and balance distributions. It tracks account performance across **Savings vs Current** accounts, identifies inactive account trends, monitors monthly cash flow variations, and breaks down customer demographics across age and gender brackets[cite: 8, 9].
+## Executive Summary
+This **Power BI Analytics Dashboard** provides an end-to-end view of banking operations, customer portfolio health, transaction volumes, and balance distributions.
 
----
+The dataset was generated using **AI (LLMs)** and structured into a relational database using **SQL** before being imported into **Power BI** for data modeling and interactive visualization.
 
-##  Tools & Technologies Used
-* **Power BI Desktop:** Area charts, Line trends, Donut & Pie charts, Treemaps, Data modeling[cite: 8, 9].
-* **DAX & Data Aggregations:** Calculated columns for account count, monthly transaction sums, and demographic segmentation[cite: 8, 9].
-* **Data Sources:** Customer account records, monthly transaction logs, demographic profiles[cite: 8, 9].
+The project monitors account performance across **Savings vs Current accounts**, identifies **inactive account trends**, tracks **monthly transaction patterns**, and breaks down **customer demographics**.
 
 ---
 
-##  Dashboard Pages & Visualizations
+## Tools & Technologies Used
+* **AI Prompts / Generation**: Synthetic data creation and initial dashboard structure recommendation.
+* **SQL**: Table schema creation, data insertion, and data transformation.
+* **Power BI Desktop**: Data modeling, dynamic measures, and chart custom visualizations.
+* **DAX & Data Aggregations**: Calculated measures for demographic segmentation and monthly volume metrics.
+
+---
+
+## Dashboard Pages & Visualizations
 
 ### 1. Customer Demographics & Balance Overview (Page 1)
-* **Total Balance by Name:** Individual balance distribution tracking high-value vs deficit customer accounts[cite: 8].
-* **Monthly Transaction Balance Trend:** Monthly cash flow fluctuations from January to December (peaking/dropping across key months like May & October)[cite: 8].
-* **Account Count by Account Type:** Treemap breakdown showing distribution across **Savings (200)** and **Current (200)** accounts[cite: 8].
-* **Age Group & Gender Breakdown:** Customer segmentation across **26–35**, **36–50**, and **51+** age groups along with Gender ratio (Male 25%, Female 25%, Blank 50%)[cite: 8].
+* **Total Balance by Name**: Tracks high-value vs deficit customer balances (e.g., Mark Lee, Sarah Khan, Priya Singh).
+* **Monthly Transaction Balance Trend**: Monthly cash flow movement throughout the year with key dips in January, May (-1.58M), and October (-1.42M).
+* **Account Count by Account Type**: Treemap breakdown showing an equal split between **Current (200)** and **Savings (200)** accounts.
+* **Age Group Distribution**: Customer volume across **26–35 (100)**, **36–50 (100)**, and **51+ (100)** age groups.
+* **Gender Ratio Breakdown**: Donut chart distribution showing **Male (25%)**, **Female (25%)**, and **Blank/Unspecified (50%)**.
+
+---
 
 ### 2. Transaction Amount & Account Health Analysis (Page 2)
-* **Total Amount by Customer Name:** Net credit/debit balances across customer profiles (e.g., Sarah Khan vs Mark Lee)[cite: 9].
-* **Total Balance by Account Type:** Comparison of total holding balances between **Savings (1.48K)** and **Current** accounts[cite: 9].
-* **Inactive Accounts Trend:** Monthly monitoring of dormant/inactive accounts (consistent trend of 5 inactive accounts monthly)[cite: 9].
-* **Monthly Transaction Amount Trend:** Tracks overall transaction flow throughout the year, peaking in July (4.1M) and January (4.0M)[cite: 9].
-* **Transaction Type Count:** Equal distribution across major transaction types (50% / 50%)[cite: 9].
+* **Total Amount by Customer Name**: Customer net debit/credit balance analysis (e.g., Sarah Khan at **0.25M** vs Mark Lee at **-0.24M**).
+* **Total Balance by Account Type**: Comparison showing **Savings** account holding (**1.48K**) vs **Current** account holding (**-15782.44K**).
+* **Inactive Accounts by Month**: Consistent tracking showing a steady baseline of **5 inactive accounts** every month.
+* **Monthly Transaction Amount Trend**: Visualizes transaction volume shifts, peaking in **July (4.1M)** and **January (4.0M)**, with a low in **February (0.9M)**.
+* **Count of Transaction by Type**: Equal distribution across transaction types (**5K / 50% each**).
 
 ---
 
-##  Dashboard Preview
-
-### Page 1: Customer Demographics & Monthly Balances
-<a href="https://github.com/owaiskhan2533/Customer-Banking-Account-Analytics-PowerBI/blob/main/Project3.png">Customer Overview</a>
-
-### Page 2: Transaction Volumes & Account Health
-<a href="https://github.com/owaiskhan2533/Customer-Banking-Account-Analytics-PowerBI/blob/main/project%203(2).png">Transaction Analysis</a>
-
----
-
-##  Key Business Insights
-1. **Account Type Portfolio:** The customer base is evenly split between **Savings (200)** and **Current (200)** accounts, though holdings differ significantly[cite: 8, 9].
-2. **Transaction Seasonality:** Transaction amounts experience major spikes in **January (4.0M)** and **July (4.1M)**, followed by mid-year stabilization around **1.9M–2.0M**[cite: 9].
-3. **Inactive Account Tracking:** A steady baseline of **5 inactive accounts** per month requires targeted customer re-engagement strategies[cite: 9].
+## Key Business Insights
+1. **Portfolio Distribution**: The account base is evenly split between Savings (200) and Current (200) accounts, but Current accounts reflect significant negative balance flow requiring risk evaluation.
+2. **Transaction Seasonality**: High activity peaks occur in **January (4.0M)** and **July (4.1M)**, whereas February experiences the lowest transaction activity (**0.9M**).
+3. **Account Inactivity**: A baseline of **5 dormant accounts per month** indicates a predictable segment for automated re-engagement campaigns.
 
